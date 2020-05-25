@@ -1,0 +1,8 @@
+Package: picamera
+Version: 0.5
+Section: base
+Priority: optional
+Architecture: armel
+Depends: rclone (>= 1.45-3)
+Maintainer: Eike Schott <eikeschott0@gmail.com>
+Description: A package that sets up the Raspi garden imager

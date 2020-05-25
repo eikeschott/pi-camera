@@ -1,0 +1,8 @@
+[Unit]
+Description=Takes an image at every 5 minute step
+
+[Service]
+Type=oneshot
+User=pi
+ExecStartPre=/home/pi/pi_camera/templog.sh
+ExecStart=/bin/bash /home/pi/pi_camera/imager.sh

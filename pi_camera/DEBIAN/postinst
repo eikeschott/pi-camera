@@ -1,0 +1,5 @@
+#!/bin/bash
+chown root:root /etc/systemd/system/imager.*
+systemctl start imager.timer
+systemctl enable imager.timer
+

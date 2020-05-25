@@ -1,0 +1,4 @@
+*.deb
+*.R
+templog.sh
+pi_timelapse.sh
