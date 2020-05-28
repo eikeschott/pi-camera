@@ -9,3 +9,4 @@ On the software side the Raspberry Pi Zero W is taking an image at certain inter
 To determine sunrise and sunset at my place I utilized [this](https://www.anginf.de/?p=138) awesome bash script.
 
 ![](images/gif1.gif)
+![](images/img1.jpg)
