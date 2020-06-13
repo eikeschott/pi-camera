@@ -23,14 +23,6 @@ then
 	cd /home/pi/images/cam1/"$year"/"$year"_"$month"/"$year"_"$month"_"$day" || exit
 
 	/usr/bin/raspistill -q 8 -sa 5 -w 1280 -h 960 -awb sun -o cam1_"$DATE".jpg
-	#touch cam1_"$DATE".jpg
-	sleep 5
-	
-	if [ $DATES == 00]
-	then
-		echo "Upload"
-		/usr/bin/rclone move /home/pi/images/ eikeschott:pi_camera/ -q --delete-empty-src-dirs --delete-after --retries 1 --stats-one-line 
-	fi
 	
 else
 	/bin/echo "It's dark outside"

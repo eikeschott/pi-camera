@@ -4,5 +4,5 @@ Description=Takes an image at every 30 seconds minute step
 [Service]
 Type=oneshot
 User=pi
-ExecStartPre=/home/pi/pi_camera/templog.sh
-ExecStart=/bin/bash /home/pi/pi_camera/imager.sh
+ExecStartPre=/usr/local/bin/templog.sh
+ExecStart=/bin/bash /usr/local/bin/imager.sh

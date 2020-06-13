@@ -3,7 +3,7 @@ Description=Runs imager.service every 2 minutes
 
 [Timer]
 OnCalendar=*:*:0/30
-AccuracySec=0.2
+AccuracySec=0.1
 
 [Install]
 WantedBy=basic.target
