@@ -1,5 +1,5 @@
 [Unit]
-Description=Takes an image at every 5 minute step
+Description=Takes an image at every 30 seconds minute step
 
 [Service]
 Type=oneshot

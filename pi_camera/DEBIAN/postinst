@@ -1,5 +1,7 @@
 #!/bin/bash
 chown root:root /etc/systemd/system/imager.*
+chown root:root /etc/systemd/system/upload.*
 systemctl start imager.timer
 systemctl enable imager.timer
-
+systemctl start upload.timer
+systemctl enable upload.timer

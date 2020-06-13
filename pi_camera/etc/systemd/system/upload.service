@@ -1,0 +1,7 @@
+[Unit]
+Description=Takes an image at every 5 minute step
+
+[Service]
+Type=oneshot
+User=pi
+ExecStart=/bin/bash /usr/local/bin/uploader.sh
